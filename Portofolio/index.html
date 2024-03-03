@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <section id="navbar" class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid px-5">
+          <a class="navbar-brand" href="index.html" style="color: #faf0e6"><b>Portofolio</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation" style="border-color: #faf0e6">
+            <span class="navbar-toggler-icon" style="border-color: #faf0e6"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#header" style="color: #faf0e6">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about" style="color: #faf0e6">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project" style="color: #faf0e6">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact" style="color: #faf0e6">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!-- Header Section -->
+    <section id="header">
+      <div class="judul" style="color: #faf0e6">
+        <p>Perkenalkan Nama Saya Muhammad Affandi</p>
+        <h1>MSIB BATCH 6 Web Development</h1>
+        <a class="btn btn-outline-light mt-3" href="#about" role="button" aria-disabled="true" style="color: #faf0e6">About Me</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container col-sm-12 col-md-6 py-5">
+        <div class="row align-items-center justify-content-center py-5">
+          <div class="gambar-about col-sm-12 col-sm-6 col-lg-6">
+            <img src="assets/img/affandi.jpg" class="d-block mx-lg-auto img-fluid rounded-pill" alt="Foto laksa" width="250" height="250" />
+          </div>
+          <div class="text-about col-sm-12 col-lg-6 py-5" style="color: #352f44">
+            <h1>Tentang Saya</h1>
+            <p>
+              Perkenalkan Nama Saya Muhammad Affandi Dari Universitas Hasanuddin Jurusan Sistem Informasi, Saya Tertarik Tentang Pengembangan Web Menggunakan HTML, CSS, JavaScript dan PHP Serta Framework Seperti Laravel.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 d-flex justify-content-center my-3">
+              <div class="card card-about border-0" style="width: 18rem; height: 100%; color: #faf0e6">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Jenjang Pendidikan</h5>
+                  <p class="card-text flex-grow-1">1. SMK Telkom Makassar (2018-2020)</p>
+                  <p class="card-text flex-grow-1">2. Universitas Hasanuddin (2020-Sekarang)</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-center my-3">
+              <div class="card card-about border-0" style="width: 18rem; height: 100%; color: #faf0e6">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Organization</h5>
+                  <p class="card-text flex-grow-1">-</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center my-3">
+              <div class="card card-about border-0" style="width: 18rem; height: 100%; color: #faf0e6">
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title">Experience</h5>
+                  <p class="card-text flex-grow-1">Troubleshooting Layanan Jaringan Pada Jaringan Client Server (2020)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="py-5">
+      <h1 class="project text-center py-5" style="color: #faf0e6">Project</h1>
+      <div class="container">
+        <div class="row g-3">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0" style="color: #352f44; height: 100%">
+              <img src="assets/img/login.png" alt="loginform" height="300px" width="350px" />
+              <div class="card-body d-flex flex-column flex-grow-1" style="background-color: #b9b4c7">
+                <h5 class="card-title">Login Form</h5>
+                <p class="card-text mb-auto" >Login Form LearningX</p>
+                <a class="btn btn-outline-dark mt-3 me-auto" href="MSIB 6_3A_Tugas2.2_Muhammad_Affandi.html" role="button" aria-disabled="true">Visit site</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card shadow-sm border-0" style="color: #352f44; height: 100%">
+              <img src="assets/img/movies.png" alt="filmku" height="300" />
+              <div class="card-body d-flex flex-column flex-grow-1" style="background-color: #b9b4c7">
+                <h5 class="card-title">Favorite Movies</h5>
+                <p class="card-text mb-auto">My Favorite Movies Website</p>
+                <a class="btn btn-outline-dark mt-3 me-auto" href="Tugas2.3_Muhammad_Affandi.html" role="button" aria-disabled="true">Visit site</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <h1 class="project text-center pb-2" style="color: #faf0e6">Kontak</h1>
+      <div class="contact pb-5">
+        <div class="form-contact my-auto">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingInput" placeholder="nama" />
+            <label for="floatingInput">Nama</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingInput" placeholder="email" />
+            <label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Write message here" id="floatingTextarea"></textarea>
+            <label for="floatingTextarea">Pesan</label>
+          </div>
+          <div class="btn-contact">
+            <button type="button" class="btn btn-dark mt-3">Kirim</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <section id="footer" class="mt-5">
+      <footer id="sticky-footer" class="py-3 text-white-50" style="background-color: #352f44">
+        <div class="container text-center">
+          <small style="color: #faf0e6">Copyright &copy; 2024 Muhammad Affandi</small>
+        </div>
+      </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
